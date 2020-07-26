@@ -1,0 +1,6 @@
+- id: terraform-section-comment
+  name: Terraform section header comment
+  description: Standardize section header comments in terraform
+  entry: hooks/terraform-section-comment.sh
+  language: script
+  types: [terraform]
