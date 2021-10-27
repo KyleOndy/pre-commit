@@ -4,6 +4,17 @@ This is a collection of highly opinionated [pre-commit hooks](https://pre-commit
 I knows its not "ideal", but I am packaging all my hooks in this monorepo.
 It just makes maintenance much easier since I am the only consumer I care about.
 
+## Usage
+
+```.yaml
+# pre-commit-config.yaml
+repos:
+-   repo: https://github.com/KyleOndy/pre-commit
+    rev: 0.1.5
+    hooks:
+    -   id: terraform-section-comment
+```
+
 ## Terraform Hooks
 
 ### Section Header Comments
